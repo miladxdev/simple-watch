@@ -23,11 +23,12 @@ function time() {
     if (hrs < 10) { hrs = "0" + hrs; }
     let fullTime = `${hrs}:${min}:${sec}`;
 
-    let dd = date.getDay();
-    weekSection.innerHTML = days[dd];
+    let ww = date.getDay();
+    let dd = date.getDate();
+    weekSection.innerHTML = days[ww];
     let mm = date.getMonth()+1;
     let yy = date.getFullYear().toString().substring(2);
-    if (dd < 10) { dd = "0" + dd; }
+    if (dd < 10) { ww = "0" + ww; }
     if (mm < 10) { mm = "0" + mm; }
     let fullDate = `${dd}.${mm}.${yy}`;
 

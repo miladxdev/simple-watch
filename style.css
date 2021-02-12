@@ -6,8 +6,7 @@
 }
 
 body {
-    background: #fafafa;
-    /* background-image: linear-gradient(to bottom right, #232526, #414345); */
+    background-image: linear-gradient(to bottom right, #121212, #2e2e2e);
     font-family: 'Courier New', Courier, monospace;
     
     display: flex;
