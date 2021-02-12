@@ -1,0 +1,42 @@
+/* designed by milad gharibi - instagram @xcripts */
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    /* border: 1px dotted white; */
+}
+
+body {
+    background: #fafafa;
+    /* background-image: linear-gradient(to bottom right, #232526, #414345); */
+    font-family: 'Courier New', Courier, monospace;
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#watch {
+    width: 300px;
+    height: 300px;
+    background: #121212;
+    border-radius: 50%;
+    border: 16px solid #161616;
+    color: lime;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 0 0 16px lime, 0 0 5px #9bff9b;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#week-container {
+    font-size: 24px;
+}
+
+#date-container {
+    font-size: 24px;
+}
