@@ -7,6 +7,7 @@ const days = [
 let weekSection = document.getElementById("week-container");
 let timeSection = document.getElementById("time-container");
 let dateSection = document.getElementById("date-container");
+let progress = document.getElementById("progress");
 
 const tick = new Audio("snd/tick.mp3");
 
@@ -36,4 +37,8 @@ function time() {
     dateSection.innerHTML = fullDate;
     
     tick.play();
+
+    //animation
+    let deg = date.getSeconds() * 6;
+    progress.style.transform = `rotate(${deg}deg)`;
 }

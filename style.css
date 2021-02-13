@@ -20,7 +20,7 @@ body {
     height: 300px;
     background: #121212;
     border-radius: 50%;
-    border: 16px solid #161616;
+    /* border: 16px solid #161616; */
     color: lime;
     text-align: center;
     font-size: 48px;
@@ -38,4 +38,18 @@ body {
 
 #date-container {
     font-size: 24px;
+}
+
+#progress {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    
+    background: #121212;
+    border-radius: 50%;
+    border: 8px dotted rgba(0, 255, 0, 0.247);
+    color: lime;
+    text-align: center;
+    transform: rotate(0deg);
+    z-index: -1;
 }
